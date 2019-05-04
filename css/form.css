@@ -1,0 +1,53 @@
+.mt {
+  margin: 7px 0 !important;  
+}
+
+.mt-7 {
+  margin-top: 7px !important;
+}
+
+h2.h2 {
+  margin-top: -15px;
+  letter-spacing: 1em;
+  font-size: 15pt !important;
+}
+
+h3.h3 {
+  letter-spacing: 0.2em;
+  margin-left: 5px;
+  font-size: 28pt !important;
+}
+
+ h1.h1 {
+    font-size: 30pt !important;
+}
+
+button, input {
+  font-size: 18pt !important;
+}
+
+form {
+  bottom: 18px !important;
+}
+
+@media (min-width: 2000px) {
+    h1.h1 {
+        font-size: 33pt !important;
+    }
+
+    h2.h2 {
+      font-size: 18pt !important;
+    }
+
+    h3.h3 {
+      font-size: 33pt !important;
+    }
+
+    button, input {
+      font-size: 21pt !important;
+    }
+
+    form {
+      bottom: 21px !important;
+    }
+  }

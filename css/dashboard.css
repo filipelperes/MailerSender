@@ -1,0 +1,120 @@
+form label {
+  margin-top: -0.75%;
+  width: auto !important;
+  height: auto !important;
+}
+
+.dash button {
+  margin: 10px 0 !important;
+}
+
+.dash button.w3-btn {
+  padding: 0 0 !important;
+}
+
+.dash h2, .dash h3 {
+  margin: 0 0 !important;
+  padding: 0 0 !important;
+  font-weight: 100 !important;
+  letter-spacing: 0.0125em;
+}
+
+.mt-menu {
+  margin-top: 50px !important;
+}
+
+#mySidebar {
+  z-index:3;
+  width: 25% !important;
+}
+
+footer p, footer a {
+  font-size: 8pt !important;
+  color: #a6a6a6;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.99px) {
+  #mySidebar {
+    width: 100% !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  #mySidebar {
+    width: 100% !important;
+  }
+
+  label {
+    margin-top: 3% !important;
+    font-size: 11pt !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+  #mySidebar {
+    width: 55% !important;
+  }
+
+  label {
+    margin-top: 3% !important;
+    font-size: 10px !important;
+  }
+
+  form button {
+    margin-top: 12px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {
+  label{
+    font-size: 11pt !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    border-radius: 8px !important;
+    margin-top: 6% !important;
+  }
+
+  #notify {
+    width: 70% !important;
+  }
+
+  #notify button {
+    margin-top: 1.5% !important;
+  }
+
+  .dash button h2, .dash button h3  {font-size: 20pt !important;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  label{
+    font-size: 25pt !important;
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    margin-top: -0.4% !important;
+  }
+
+  #notify {
+    width: 65% !important;
+  }
+
+  #notify button {
+    margin-top: 1.5% !important;
+  }
+  
+  .dash button {
+    width: 30% !important;
+    margin-left: 13% !important;
+    margin-top: 30px !important;
+  }
+
+  .dash button h2 {font-size: 33pt !important;}
+}
+
+@media (min-width: 2000px) {
+}

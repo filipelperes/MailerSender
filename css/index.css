@@ -1,0 +1,96 @@
+h2.h2{
+    letter-spacing: 1em !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.99px) {
+    .buttons {
+        font-size: 25px !important;
+    }
+    h1.header {
+        font-size: 25pt !important;
+    }
+    h2.header {
+        font-size: 10pt !important;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 767.98px) {
+    .buttons {
+        font-size: 30px !important;
+    }
+    h1.h1 {
+        font-size: 30pt !important;
+    }
+    h2.h2 {
+        font-size: 15pt !important;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 991.98px) {
+    button {
+        font-size: 32px !important;
+    }
+    h1.header {
+        font-size: 35pt !important;
+    }
+    h2.header {
+        font-size: 20pt !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (max-width: 1199.98px) {
+    button {
+        font-size: 35px !important;
+    }
+    h1.h1 {
+        font-size: 45pt !important;
+    }
+    h2.h2 {
+        font-size: 23pt !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .buttons {
+        font-size: 30px !important;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+        width: 80% !important;
+        margin-bottom: 50px !important;
+    }
+    h1.h1 {
+        font-size: 45pt !important;
+    }
+
+    h2.h2 {
+        font-size: 25pt !important;
+    }
+  }
+  
+  @media (min-width: 2000px) {
+    .buttons {
+        font-size: 40px !important;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+        width: 80% !important;
+        margin-bottom: 60px !important;
+    }
+    h1.h1 {
+        font-size: 55pt !important;
+    }
+
+    h2.h2 {
+        font-size: 35pt !important;
+    }
+  }

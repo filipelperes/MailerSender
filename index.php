@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+
+<html lang="pt-br">
+
+  <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Send Mails Integral e funcional</title>
+    <!-- Title -->
+    <title>Send Mails Integral & Funcional - Index</title>
+    <!-- Personal Style -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- w3.css / w3.js -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        body {
-            background-color: #c0c0c0;
-        }
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- JS Extern -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>  
+    <script src="js/js.js"></script>  
+  </head>
 
-        * {
-            color: #000 !important;
-        }
+  <body class="w3-sand">
 
-        input {
-            font-size: 1.5em;
-        }
+    <div class="h-100 w3-display-container w3-text-brown">
+      <!-- Header -->
+      <div class="w3-row-padding w-100 w3-center w3-display-middle">
+        <?php require "template/notify.php"; ?>
+        <?php require "template/header.php"; ?>
+      </div>
+      
+      <!-- Buttons -->
+      <div class="w3-row w-100 w3-center w3-display-bottommiddle">
+        <div class="w3-col s12 m12 l6">
+          <button type="button" onclick="redirect('form.php?login=true')" class="w3-button w3-sand w3-hover-brown w3-text-brown uppercase w-100 buttons">Entrar</button>
+        </div>
+        <div class="w3-col s12 m12 l6">
+          <button type="button" onclick="redirect('form.php?register=true')" class="w3-button w3-sand w3-hover-brown w3-text-brown uppercase w-100 buttons">Registrar</button>
+        </div>
+      </div>
 
-        .uppercase {
-            text-transform: uppercase;
-            font-size: 1.5em !important;
-        }
-    </style>
-</head>
-<body>
-    <div class="w3-row">
-        <form action="AccesValidator.php" method="post" class="w3-container w3-card w3-center w3-col m6 s12 w3-display-middle w3-white"> 
-            <div class="w3-container w3-center">
-                <h2 class="w3-xxlarge w3-text-grey uppercase">Send Mails</h2>
-                <h2 class="w3-xxlarge w3-text-grey">Integral & Funcional</h2>
-            </div>
-            <input id="email" name="email" class="w3-input w3-border-bottom w3-margin w3-col s11"type="email" placeholder="Email" required>
-            <input id="senha" name="senha" class="w3-input w3-border-bottom w3-margin w3-col s11" type="password" placeholder="Senha" required>
-
-            <button onclick="validaDados()" class="w3-margin w3-button w3-border w3-round-large w3-hover-blue w3-large w3-col s11">Entrar</button>
-        </form>
     </div>
 
-</body>
+  </body>
+
 </html>
