@@ -26,7 +26,7 @@
     <script src="js/js.js"></script>  
   </head>
 
-  <body class="w3-sand">
+  <body>
 
     <div class="h-100 w3-display-container w3-text-brown">
       <!-- Header -->
@@ -56,8 +56,8 @@
               <button type="submit" class="w3-btn w3-brown w-100 w3-round-large mt">Logar</button>
             <?php } ?>
             <?php if(isset($_GET['register']) && $_GET['register']) { ?>
-              <button type="submit" class="w3-btn w3-brown w-100 w3-hover-sand w3-round-large mt">Cadastrar</button>
-              <button type="button" onclick="redirect('form.php?login=true')" class="w3-btn w3-brown w-100 w3-hover-sand w3-round-large mt">Logar</button>
+              <button type="submit" class="w3-btn w3-brown w-100 w3-hover-brown w3-round-large mt">Cadastrar</button>
+              <button type="button" onclick="redirect('form.php?login=true')" class="w3-btn w3-brown w-100 w3-hover-brown w3-round-large mt">Logar</button>
             <?php } ?>
             <?php require "template/notify.php"; ?>
           </div>
@@ -65,7 +65,7 @@
       </div>
       <div class="w3-row-padding w3-display-bottommiddle w-100">
         <div class="w3-col s12 m10 l6 w3-display-bottommiddle">
-          <button type="button" onclick="redirect('index.php')" class="w-100 w3-btn w3-sand w3-hover-brown w3-round-large mt">Voltar</button>
+          <button type="button" onclick="redirect('index.php')" class="w-100 w3-btn w3-hover-brown w3-round-large mt">Voltar</button>
         </div>
       </div>
       

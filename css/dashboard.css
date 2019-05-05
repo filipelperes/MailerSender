@@ -5,10 +5,15 @@ form label {
 }
 
 .dash button {
-  margin: 10px 0 !important;
+  margin: 5px 0 !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  border-radius: 4px !important;
 }
 
-.dash button.w3-btn {
+.dash button.w3-button {
   padding: 0 0 !important;
 }
 
@@ -17,6 +22,10 @@ form label {
   padding: 0 0 !important;
   font-weight: 100 !important;
   letter-spacing: 0.0125em;
+}
+
+.dash {
+  margin-top: 30px !important;
 }
 
 .mt-menu {
@@ -38,6 +47,24 @@ footer p, footer a {
   #mySidebar {
     width: 100% !important;
   }
+
+  form label {
+    margin-top: 3% !important;
+    font-size: 10pt !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    border-radius: 8px !important;
+  }
+
+  form {
+    margin-top: 10%;
+  }
+
+  form button {
+    margin-top: 13px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -46,36 +73,91 @@ footer p, footer a {
     width: 100% !important;
   }
 
-  label {
+  form label {
     margin-top: 3% !important;
-    font-size: 11pt !important;
+    font-size: 12pt !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    border-radius: 8px !important;
+  }
+
+  nav {
+    font-size: 1.5rem !important;
+  }
+  
+  form input {
+    font-size: 1.2em;
+  }
+
+  form {
+    margin-top: 22%;
+  }
+
+  form button {
+    margin-top: 13px;
+  }
+
+  #notify button {
+    margin-top: 2% !important;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 991.98px) {
+@media (min-width: 767.99px) and (max-width: 991.98px) {
   #mySidebar {
     width: 55% !important;
   }
 
-  label {
-    margin-top: 3% !important;
-    font-size: 10px !important;
+  form label {
+    margin-top: 1.5% !important;
+    font-size: 15pt !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    border-radius: 8px !important;
   }
 
-  form button {
-    margin-top: 12px;
+  #notify button {
+    margin-top: 2% !important;
+  }
+
+  #notify {
+    width: 65% !important;
+  }
+
+  form input {
+    font-size: 1.2em;
+  }
+
+  nav {
+    font-size: 1.20rem !important;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 1199.98px) {
-  label{
-    font-size: 11pt !important;
-    -webkit-border-radius: 8px !important;
-    -moz-border-radius: 8px !important;
-    border-radius: 8px !important;
-    margin-top: 6% !important;
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+  #mySidebar {
+    width: 55% !important;
+  }
+  
+  form label{
+    font-size: 20pt !important;
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    -o-border-radius: 35px !important;
+    -ms-border-radius: 35px !important;
+    border-radius: 35px !important;
+  }
+
+  form input {
+    margin-top: 2.5% !important;
+  }
+
+  form {
+    margin-top: -18%;
   }
 
   #notify {
@@ -86,7 +168,9 @@ footer p, footer a {
     margin-top: 1.5% !important;
   }
 
-  .dash button h2, .dash button h3  {font-size: 20pt !important;}
+  .dash button h2, .dash button h3 {
+    font-size: 22pt;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -95,8 +179,18 @@ footer p, footer a {
     font-size: 25pt !important;
     -webkit-border-radius: 35px !important;
     -moz-border-radius: 35px !important;
+    -o-border-radius: 35px !important;
+    -ms-border-radius: 35px !important;
     border-radius: 35px !important;
     margin-top: -0.4% !important;
+  }
+
+  form input {
+    font-size: 1.1em;
+  }
+
+  .dash button h2, .dash button h3 {
+    font-size: 25pt;
   }
 
   #notify {
@@ -106,15 +200,48 @@ footer p, footer a {
   #notify button {
     margin-top: 1.5% !important;
   }
-  
-  .dash button {
-    width: 30% !important;
-    margin-left: 13% !important;
-    margin-top: 30px !important;
-  }
 
-  .dash button h2 {font-size: 33pt !important;}
+  .dash button {
+    width: 40% !important;
+    margin-left: 5.5% !important;
+    margin-top: 1.75% !important;
+  }
 }
 
 @media (min-width: 2000px) {
+  label{
+    font-size: 28pt !important;
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    -o-border-radius: 35px !important;
+    -ms-border-radius: 35px !important;
+    border-radius: 35px !important;
+    margin-top: -0.4% !important;
+  }
+
+  form input {
+    font-size: 1.3em;
+  }
+
+  .dash button h2, .dash button h3 {
+    font-size: 28pt;
+  }
+
+  #notify {
+    width: 65% !important;
+  }
+
+  #notify button {
+    margin-top: 1.6% !important;
+  }
+
+  nav {
+    font-size: 1.15rem !important;
+  }
+
+  .dash button {
+    width: 40% !important;
+    margin-left: 5.5% !important;
+    margin-top: 1.75% !important;
+  }
 }

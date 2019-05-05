@@ -21,7 +21,7 @@
     <script src="js/js.js"></script>  
   </head>
 
-  <body class="w3-sand">
+  <body>
 
     <div class="h-100 w3-display-container w3-text-brown">
       <!-- Header -->
@@ -33,10 +33,10 @@
       <!-- Buttons -->
       <div class="w3-row w-100 w3-center w3-display-bottommiddle">
         <div class="w3-col s12 m12 l6">
-          <button type="button" onclick="redirect('form.php?login=true')" class="w3-button w3-sand w3-hover-brown w3-text-brown uppercase w-100 buttons">Entrar</button>
+          <button type="button" onclick="redirect('form.php?login=true')" class="w3-button w3-hover-brown w3-text-brown uppercase w-100 buttons">Entrar</button>
         </div>
         <div class="w3-col s12 m12 l6">
-          <button type="button" onclick="redirect('form.php?register=true')" class="w3-button w3-sand w3-hover-brown w3-text-brown uppercase w-100 buttons">Registrar</button>
+          <button type="button" onclick="redirect('form.php?register=true')" class="w3-button w3-hover-brown w3-text-brown uppercase w-100 buttons">Registrar</button>
         </div>
       </div>
 
