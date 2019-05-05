@@ -49,7 +49,7 @@
         </div>
         <hr class="w3-border-brown">
         <!-- Part 2 menu -->
-        <div class="w3-container w3-center w3-text-brown uppercase w3-display-container">
+        <div class="w3-container w3-center w3-text-brown w3-text-bolder uppercase w3-display-container">
           <h5>Dashboard</h5>
         </div>
         <div class="w3-bar-block w3-text-brown">
