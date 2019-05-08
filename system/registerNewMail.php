@@ -1,8 +1,11 @@
 <?php
   session_start();
-  
   if(!isset($_POST['email'])) {
-    header('Location: ../dashboard.php');
+    if(isset($_GET['form']) && $_GET['form'] == 'call') {
+      header('Location: ../form_list.php');
+    } else {
+      header('Location: ../dashboard.php');
+    }
   }
 
   require "config.php";
@@ -19,8 +22,16 @@
                 'register_for' => $_SESSION['email']
               ];
     DBCreate('mails2sent', $insert);
-    header('Location: ../dashboard.php?success=register');
+    if(isset($_GET['form']) && $_GET['form'] == 'call') {
+      header('Location: ../form_list.php?success=register');
+    } else {
+      header('Location: ../dashboard.php?success=register');
+    }
   } else {
-    header('Location: ../dashboard.php?exist=register');
+    if(isset($_GET['form']) && $_GET['form'] == 'call') {
+      header('Location: ../form_list.php?exist=register');
+    } else {
+      header('Location: ../dashboard.php?exist=register');
+    }
   }
 ?>

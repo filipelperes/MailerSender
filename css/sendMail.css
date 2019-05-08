@@ -1,0 +1,95 @@
+  .mt-menu {
+    margin-top: 50px !important;
+  }
+
+  .steps label {
+      cursor: pointer;
+  }
+
+  .steps button {
+    font-weight: 600;
+    cursor: initial;
+  }
+  
+  #mySidebar {
+    z-index:3;
+    width: 25% !important;
+  }
+  
+  footer p, footer a {
+    font-size: 8pt !important;
+    color: #a6a6a6;
+  }
+  
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.99px) {
+    #mySidebar {
+      width: 100% !important;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 767.98px) {
+    #mySidebar {
+      width: 100% !important;
+    }
+    nav {
+      font-size: 1.5rem !important;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 767.99px) and (max-width: 991.98px) {
+    #mySidebar {
+      width: 55% !important;
+    }
+  
+    nav {
+      font-size: 1.20rem !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 991.99px) and (max-width: 1199.98px) {
+    #mySidebar {
+      width: 55% !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .form1 {
+        margin: 1% 0 1% 8%;
+        padding: 1.5%;
+    }
+
+    .form1 label {
+        margin-top: 1%;
+    }
+
+    .form1 button {
+        width: 35% !important;
+        margin: 0.5% 3%;
+    }
+  }
+  
+  @media (min-width: 2000px) {  
+    nav {
+      font-size: 1.15rem !important;
+    }
+
+    .form1 {
+        margin: 1% 0 1% 8%;
+        padding: 1.5%;
+    }
+
+    .form1 label {
+        margin-top: 1%;
+    }
+
+    .form1 button {
+        width: 35% !important;
+        margin: 0.5% 3%;
+    }
+  }
+  

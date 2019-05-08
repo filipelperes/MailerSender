@@ -1,0 +1,254 @@
+form label {
+    margin-top: -0.75%;
+    width: auto !important;
+    height: auto !important;
+}
+
+.table {
+    margin-bottom: 5%;
+}
+
+#filters {
+    display: none;
+}
+
+.filter div {
+    padding: 0 0;
+    margin-top: 5px;
+}
+
+.filter p {
+    padding: 5px 0;
+    margin: 0 0 !important;
+    background-color: #795548;
+    color: #fff;
+    font-weight: bold;
+}
+
+.filter button {
+    margin: 0 0 !important;
+}
+
+.filter #buttonMine {
+    border: 1px solid #795548;
+}
+
+.mt-menu {
+    margin-top: 50px !important;
+}
+
+#mySidebar {
+    z-index:3;
+    width: 25% !important;
+}
+
+footer p, footer a {
+    font-size: 8pt !important;
+    color: #a6a6a6;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.99px) {
+    #mySidebar {
+        width: 100% !important;
+    }
+
+    form label {
+        margin-top: 3% !important;
+        font-size: 10pt !important;
+        -webkit-border-radius: 8px !important;
+        -moz-border-radius: 8px !important;
+        -o-border-radius: 8px !important;
+        -ms-border-radius: 8px !important;
+        border-radius: 8px !important;
+    }
+
+    form {
+        margin-top: 10%;
+    }
+
+    form button {
+        margin-top: 13px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    #mySidebar {
+        width: 100% !important;
+    }
+
+    form label {
+        margin-top: 3% !important;
+        font-size: 12pt !important;
+        -webkit-border-radius: 8px !important;
+        -moz-border-radius: 8px !important;
+        -o-border-radius: 8px !important;
+        -ms-border-radius: 8px !important;
+        border-radius: 8px !important;
+    }
+
+    nav {
+        font-size: 1.5rem !important;
+    }
+
+    form input {
+        font-size: 1.2em;
+    }
+
+    form {
+        margin-top: 22%;
+    }
+
+    form button {
+        margin-top: 13px;
+    }
+
+    #notify button {
+        margin-top: 2% !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+    #mySidebar {
+        width: 55% !important;
+    }
+
+    form label {
+        margin-top: 1.5% !important;
+        font-size: 15pt !important;
+        -webkit-border-radius: 8px !important;
+        -moz-border-radius: 8px !important;
+        -o-border-radius: 8px !important;
+        -ms-border-radius: 8px !important;
+        border-radius: 8px !important;
+    }
+
+    #notify button {
+        margin-top: 2% !important;
+    }
+
+    #notify {
+        width: 65% !important;
+    }
+
+    form input {
+        font-size: 1.2em;
+    }
+
+    nav {
+        font-size: 1.20rem !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+    #mySidebar {
+        width: 55% !important;
+    }
+
+    form label{
+        font-size: 20pt !important;
+        -webkit-border-radius: 35px !important;
+        -moz-border-radius: 35px !important;
+        -o-border-radius: 35px !important;
+        -ms-border-radius: 35px !important;
+        border-radius: 35px !important;
+    }
+
+    form input {
+        margin-top: 2.5% !important;
+    }
+
+    form {
+        margin-top: -18%;
+    }
+
+    #notify {
+        width: 70% !important;
+    }
+
+    #notify button {
+        margin-top: 1.5% !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    label{
+        font-size: 25pt !important;
+        -webkit-border-radius: 35px !important;
+        -moz-border-radius: 35px !important;
+        -o-border-radius: 35px !important;
+        -ms-border-radius: 35px !important;
+        border-radius: 35px !important;
+        margin-top: -0.4% !important;
+    }
+
+    form input {
+        font-size: 1.1em;
+    }
+
+    #notify {
+        width: 65% !important;
+    }
+
+    #notify button {
+        margin-top: 1.5% !important;
+    }
+
+    .filter {
+        margin-left: 3%;
+    }
+
+    .fill button.div {
+        margin-left: 4% !important;
+        width: 6%;
+    }
+
+    .table {
+        margin-left: 11.5% !important; 
+    }
+}
+
+@media (min-width: 2000px) {
+    label{
+        font-size: 28pt !important;
+        -webkit-border-radius: 35px !important;
+        -moz-border-radius: 35px !important;
+        -o-border-radius: 35px !important;
+        -ms-border-radius: 35px !important;
+        border-radius: 35px !important;
+        margin-top: -0.4% !important;
+    }
+
+    form input {
+        font-size: 1.3em;
+    }
+
+    #notify {
+        width: 65% !important;
+    }
+
+    #notify button {
+        margin-top: 1.6% !important;
+    }
+
+    nav {
+        font-size: 1.15rem !important;
+    }
+
+    .filter {
+        margin-left: 3%;
+    }
+
+    .fill button.div {
+        margin-left: 4% !important;
+        width: 6%;
+    }
+
+    .table {
+        margin-left: 11.5% !important; 
+    }
+}

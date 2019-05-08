@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Title -->
-    <title>Send Mails Integral & Funcional - Index</title>
+    <title>Send Mails Integral & Funcional - Login | Cadastro</title>
     <!-- Personal Style -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/form.css">
@@ -50,8 +50,8 @@
             <?php if(isset($_GET['register']) && $_GET['register']) { ?>  
               <h3 class="uppercase w3-topbar w3-rightbar w3-bottombar w3-leftbar w-100 w3-border-brown h3 w3-padding">Cadastro</h3>
             <?php } ?>
-            <input type="email" class="w-100 w3-input w3-border-bottom w3-text-brown w3-center w3-margin-top" placeholder="Email" required name="mail">
-            <input type="password" class="w-100 w3-input w3-border-bottom w3-text-brown w3-center mt-7" placeholder="Senha" required name="password">
+            <input type="email" class="w-100 w3-input w3-border-bottom w3-text-brown w3-center w3-margin-top w3-round" placeholder="Email" required name="mail">
+            <input type="password" class="w-100 w3-input w3-border-bottom w3-text-brown w3-center mt-7 w3-round" placeholder="Senha" required name="password">
             <?php if(isset($_GET['login']) && $_GET['login']) { ?>
               <button type="submit" class="w3-btn w3-brown w-100 w3-round-large mt">Logar</button>
             <?php } ?>

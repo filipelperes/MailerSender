@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Title -->
-    <title>Send Mails Integral & Funcional - Index</title>
+    <title>Send Mails Integral & Funcional - Dashboard</title>
     <!-- Personal Style -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/dashboard.css">
@@ -23,7 +23,7 @@
     <script src="js/js.js"></script>  
   </head>
 
-  <body class="w3-white">
+  <body>
 
     <div class="h-100 w3-display-container w3-text-brown">
       <!-- Top container -->
@@ -35,7 +35,7 @@
       </div>
 
       <!-- Sidebar/menu -->
-      <nav style="display: none !important; position: relative !important;" class="w3-sidebar w3-bar-block w3-border-right w3-border-brown w3-animate-left" id="mySidebar"><br>
+      <nav style="display: none !important; position: fixed !important;" class="w3-sidebar w3-bar-block w3-border-right w3-border-brown w3-animate-left" id="mySidebar"><br>
         <!-- Part 1 menu -->
         <div class="w3-container w3-row-padding w3-center w3-text-brown">
           <div class="w3-col s12 m12 l12 w3-bar mt-menu">
@@ -54,9 +54,9 @@
         </div>
         <div class="w3-bar-block w3-text-brown">
           <a href="dashboard.php" class="w3-bar-item w3-btn w3-hover-brown w3-padding w3-leftbar w3-rightbar w3-border-brown"><i class="fas fa-home"></i> Home</a>
-          <a href="#" class="w3-bar-item w3-btn w3-hover-brown w3-padding"><i class="fa fa-users fa-fw"></i> Emails cadastrados</a>
-          <a href="#" class="w3-bar-item w3-btn w3-hover-brown w3-padding"><i class="far fa-envelope"></i> Enviar email</a>
-          <a href="#" class="w3-bar-item w3-btn w3-hover-brown w3-padding"><i class="fas fa-history"></i> Histórico de enviados</a>
+          <a href="form_list.php" class="w3-bar-item w3-btn w3-hover-brown w3-padding"><i class="fa fa-users fa-fw"></i> Emails cadastrados</a>
+          <a href="sendMail.php" class="w3-bar-item w3-btn w3-hover-brown w3-padding"><i class="far fa-envelope"></i> Enviar email</a>
+          <a href="form_history.php" class="w3-bar-item w3-btn w3-hover-brown w3-padding"><i class="fas fa-history"></i> Histórico de enviados</a>
           <!-- Bottom menu -->
           <div class="w3-display-bottommiddle w-100">
             <button type="button" class="w3-bar-item w3-button w3-brown w3-hover-white w3-hover-text-brown w3-padding w3-center" onclick="w3_menu()"><i class="fas fa-times"></i> Fechar menu</button>
@@ -87,17 +87,17 @@
                   <h3 class="w3-rest w3-brown">Home</h3>
               </button>
 
-              <button onmouseout="normal(this)" onmouseover="hover(this)" class="w3-col s12 m12 l12 w3-button w3-hover-none w3-hover-text-brown w3-card-2 card-buttons">
+              <button onclick="redirect('form_list.php')" onmouseout="normal(this)" onmouseover="hover(this)" class="w3-col s12 m12 l12 w3-button w3-hover-none w3-hover-text-brown w3-card-2 card-buttons">
                   <h2 class="w3-col s2 m2 l2 w3-brown"><i class="fa fa-users fa-fw"></i></h2>
                   <h3 class="w3-rest">Emails Cadastrados</h3>
               </button>
 
-              <button onmouseout="normal(this)" onmouseover="hover(this)" class="w3-col s12 m12 l12 w3-button w3-hover-none w3-hover-text-brown w3-card-2 card-buttons">
+              <button onclick="redirect('sendMail.php')" onmouseout="normal(this)" onmouseover="hover(this)" class="w3-col s12 m12 l12 w3-button w3-hover-none w3-hover-text-brown w3-card-2 card-buttons">
                   <h2 class="w3-col s2 m2 l2 w3-brown"><i class="far fa-envelope"></i></h2>
                   <h3 class="w3-rest">Enviar email</h3>
               </button>
 
-              <button onmouseout="normal(this)" onmouseover="hover(this)" class="w3-col s12 m12 l12 w3-button w3-hover-none w3-hover-text-brown w3-card-2 card-buttons">
+              <button onclick="redirect('form_history.php')" onmouseout="normal(this)" onmouseover="hover(this)" class="w3-col s12 m12 l12 w3-button w3-hover-none w3-hover-text-brown w3-card-2 card-buttons">
                   <h2 class="w3-col s2 m2 l2 w3-brown"><i class="fas fa-history"></i></h2>
                   <h3 class="w3-rest">Histórico de enviados</h3>
               </button>
