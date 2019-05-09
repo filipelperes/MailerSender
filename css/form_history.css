@@ -121,6 +121,10 @@ footer p, footer a {
     #notify button {
         margin-top: 2% !important;
     }
+
+    .fill {
+        margin-left: 7.5% !important;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */

@@ -76,7 +76,7 @@
 
       <!-- Container Main | Dashboard -->
       <div class="w3-row-padding w-100 w3-display-middle">
-        <div class="w3-col w-100 w3-display-container steps">
+        <div class="w3-col w-100 w3-display-container steps" style="position: absolute; margin-top: -16%; padding-bottom: 2%;">
           <div class="w3-row w-100">
               <?php if(count($_GET) == 0) { ?>
                 <button type="button" class="w3-col s12 m12 l12 w3-button w3-hover-brown w3-round w3-brown">Etapa 1. Preparar Mensagem</button>
@@ -109,7 +109,7 @@
                                     <input id="<?= $value['id'] ?>" class="w3-check checkClick" type="checkbox" name="email#<?= $value['id'] ?>" value="<?= $value['email'] ?>">
                                     <label for="<?= $value['id'] ?>"><?= $value['email'] ?></label>
                                   </p>
-                                <?php }} ?>
+                                <?php } } ?>
                               </div>
                               <div id='divBtn' class="w3-col s12 m12 l12" style="margin: 31.15% 0 1% 0; z-index: 9999;">
                                 <div style="margin-left: 3%; width: 2%;" class="w3-col w3-hide-medium w3-hide-small div">&nbsp;</div>
@@ -134,14 +134,14 @@
                           <div class="w3-col l3 w3-hide-medium w3-hide-small">&nbsp;</div>
                           <button type="button" onclick="redirect('dashboard.php')" class="w3-col s12 m12 l6 w3-btn w3-brown w3-hover-white w3-hover-text-brown w3-border w3-border-brown w3-round">Dashboard</button>
                         </div>
-                      <? } ?>
+                      <?php } ?>
               <div class="w3-col s12 m12 l12"></div>
           </div>
         </div>
       </div>
       
       <!-- Footer -->
-      <footer class="w3-center w3-bottom">
+      <footer class="w3-center w3-bottom" style="padding-bottom: .5%;">
         <p>Desenvolvido por <a target="_blank" href="http://linkedin.com/in/filipelperes">Filipe Lago Peres</a></p>
       </footer>
     </div>
@@ -202,5 +202,4 @@
       
     </script>
   </body>
-
 </html>

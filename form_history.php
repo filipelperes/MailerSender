@@ -123,7 +123,7 @@
                                     <td style="font-weight: 600 !important;"><?= separarBarra($value['sent_date']) ?></td>
                                     <td style="font-weight: 600 !important;"><?= $value['sent_for'] ?></td>
                                     <td style="font-weight: 600 !important; overflow: hidden !important;"><?= $value['subject'] ?></td>
-                                    <td><button onclick="sh_info('<?= $value['id'] ?>', '<?= $value['subject'] ?>', '<?= $value['message'] ?>', '<?= $value['mails2sent'] ?>')" type="button" style="margin: -6px -20px -6px 0 !important; padding: 0 0 !important;" class="w3-right w3-xlarge w3-button w3-hover-none w3-hover-text-white"><i id="i<?= $value['id'] ?>" class="fas fa-plus"></i></button></td>
+                                    <td><button onclick="sh_info('<?= $value['id'] ?>', '<?= $value['subject'] ?>', '<?= $value['message'] ?>', '<?= $value['mails2sent'] ?>')" type="button" style="margin: -6px -10px -6px 0 !important; padding: 0 0 !important;" class="w3-right w3-xlarge w3-button w3-hover-none w3-hover-text-white"><i id="i<?= $value['id'] ?>" class="fas fa-plus"></i></button></td>
                                     <td><button style="margin: -6px 0 !important; padding: 0 0 !important;" type="submit" class="w3-right w3-xlarge w3-button w3-hover-none w3-hover-text-white"><i class="far fa-times-circle"></i></button></td>
                                 </form>
                             </tr>

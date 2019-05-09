@@ -81,7 +81,7 @@
       </nav>
 
       <!-- Container Main | Dashboard -->
-      <div class="w3-row-padding w-100 w3-display-middle">
+      <div class="w3-row-padding w-100 w3-display-middle mtX">
         <div class="w3-col w-100 w3-display-container">
            <!-- Cadastrar email -->
           <form method="post" action="system/registerNewMail.php?form=call" class="w3-row-padding w3-content">
